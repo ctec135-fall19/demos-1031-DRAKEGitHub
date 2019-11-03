@@ -10,7 +10,11 @@ namespace MyMath
     {
         public static byte Add(byte x, byte y)
         {
-            return (byte)(x + y);
+
+            {
+                byte b = (byte)(x + y);
+                return b;
+            }
         }
     }
 }
